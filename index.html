@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>E-commerce Project</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="title">
+                    <h2>
+                        Cas
+                        <span>m</span>
+                        art
+                    </h2>
+                </div>
+
+                <div class="navbar">
+                    <a href="./index.html" class="active">Home</a>
+                    <a href="./login.html">Login</a>
+                </div>
+
+                <div class="cart">
+                    <button class="show-cart">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <span class="btn-badge green" aria-hidden="true"
+                            >0</span
+                        >
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- hero -->
+        <section
+            class="hero"
+            id="home"
+            style="background-image: url('./image/blog-3.jpg')"
+        >
+            <div class="container">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Fashion Everyday</p>
+
+                    <h2 class="h1 hero-title">Unrivalled Fashion House</h2>
+
+                    <a href="#product-sec" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <section class="prod" id="product-sec">
+                <div class="container">
+                    <div class="sidebar">
+                        <h2>Categories</h2>
+                        <div id="category-sidebar"></div>
+                    </div>
+
+                    <div class="content">
+                        <div class="search">
+                            <input
+                                type="text"
+                                id="searchInput"
+                                placeholder="Search..."
+                            />
+                        </div>
+
+                        <div id="product-list" class="products-container"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="cart-mod">
+            <div class="container">
+                <div class="title">
+                    <h1>Shopping Cart</h1>
+                    <button
+                        class="model-close-btn"
+                        data-nav-close-btn=""
+                        aria-label="Close Menu"
+                    >
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items">
+                        <!-- Cart items will be dynamically added here -->
+                    </tbody>
+                </table>
+                <div class="cart-summary">
+                    <p>Total: $<span id="cart-total">0.00</span></p>
+                    <button id="checkout-btn">Checkout</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>

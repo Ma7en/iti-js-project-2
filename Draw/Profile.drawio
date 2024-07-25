@@ -1,0 +1,62 @@
+<mxfile host="65bd71144e">
+    <diagram id="fJ6i-vczj3cOI6tCm2wK" name="Page-1">
+        <mxGraphModel dx="832" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry width="850" height="1100" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="edgeStyle=none;html=1;fontSize=16;" parent="1" source="4" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="تحميل صفحة&amp;nbsp;&lt;br style=&quot;font-size: 16px;&quot;&gt;الملف الشخصي&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;fontSize=16;" parent="1" source="6" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="623" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="هل قام المستخدم بتسجيل الدخول&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;rounded=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="180" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;fontSize=16;" parent="1" source="8" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="نعم&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" parent="1" source="6" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="303" y="210" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="223" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;fontSize=16;" parent="1" source="11" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="لا&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="165" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="البقاء في صفحة الملف الشخصي&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;rounded=1;arcSize=31;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="490" width="190" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="13" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="435" y="600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="عرض صفحة تسجيل الدخول&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;rounded=1;arcSize=30;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="510" width="190" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
